@@ -3,6 +3,7 @@ rootProject.name = 'multi-module-proj'
 include(
         ':applications:cbs-biz',
         ':applications:chn-hub',
+        ':applications:consumer',
         ':clients:feign-client',
         ':domains:domain-rabbitmq'
 )

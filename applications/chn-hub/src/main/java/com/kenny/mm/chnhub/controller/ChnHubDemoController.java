@@ -17,4 +17,9 @@ public class ChnHubDemoController {
     public String chnHubDemo() {
         return feignDemoInterface.cbsBizDemo();
     }
+
+    @GetMapping("/chn-hub/queue")
+    public void chnHubQueue() {
+        feignDemoInterface.cbsBizQueue();
+    }
 }

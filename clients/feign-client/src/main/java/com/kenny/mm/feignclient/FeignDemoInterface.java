@@ -10,4 +10,7 @@ public interface FeignDemoInterface {
 
     @GetMapping("/cbs-biz/demo")
     String cbsBizDemo();
+
+    @GetMapping("/cbs-biz/queue")
+    void cbsBizQueue();
 }

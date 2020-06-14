@@ -3,5 +3,5 @@ rootProject.name = 'multi-module-proj'
 include(
         ':applications:cbs-biz',
         ':applications:chn-hub',
-        'clients:feign-client'
+        ':clients:feign-client'
 )
